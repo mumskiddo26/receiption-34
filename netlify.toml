@@ -1,0 +1,12 @@
+[build]
+  publish = "reception counter"
+
+[[redirects]]
+  from = "/reception%20counter/*"
+  to = "/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/reception counter/*"
+  to = "/:splat"
+  status = 301
